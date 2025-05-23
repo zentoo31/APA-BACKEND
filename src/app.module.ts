@@ -44,7 +44,7 @@ import { ConfigService } from '@nestjs/config';
                 options: {
                   encrypt: true, // Para Azure
                   enableArithAbort: true, // Para Azure
-                  trustServerCertificate: true,
+                  trustServerCertificate: false,
                 }
               })
             }),
